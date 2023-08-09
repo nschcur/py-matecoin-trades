@@ -29,7 +29,3 @@ def calculate_profit(input_file: Any) -> None:
     with open("profit.json", "w") as output_file:
         json.dump(result, output_file, indent=2)
 
-
-# Виклик функції для обчислення прибутку
-calculate_profit("D:/ProgramPyCharm/Matecoin"
-                 " trades/py-matecoin-trades/app/trades.json")
